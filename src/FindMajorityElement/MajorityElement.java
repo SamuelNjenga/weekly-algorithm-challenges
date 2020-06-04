@@ -4,7 +4,8 @@ package FindMajorityElement;
 //It has a time complexity of O(n*n) as
 // A nested loop is needed where both the loops traverse the array from start to end and
 // a space complexity of O(1) as no
-// extra space is required for any operation so the space complexity is constant
+// extra space is required for any operation
+// so the space complexity is constant
 
 class MajorityElement {
 
@@ -38,11 +39,11 @@ class MajorityElement {
     // Driver code
     public static void main(String[] args) {
 
-        int arr[] = {2, 1, 1, 2, 1, 3, 5, 1, 1};
+        int array[] = {2, 1, 1, 2, 1, 3, 5, 1, 1};
         int n = arr.length;
 
         // Function calling
-        findMajority(arr, n);
+        findMajority(array, n);
     }
 //This code is contributed by Samuel Njenga.
 }
