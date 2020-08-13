@@ -1,5 +1,5 @@
 package Searching;
-//It has a time complexity of O(n)
+// It has a time complexity of O(n)
 // Java code for linearly searching x in arr[]. If x
 // is present then return its location, otherwise
 // return -1
